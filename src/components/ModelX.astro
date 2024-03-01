@@ -26,8 +26,8 @@ import Section from "./Section.astro"
   <img
     slot="background"
     alt="Model X"
-    class="h-full w-full object-cover object-center"
-    src="model-x.avif"
+    class="h-full w-full object-cover object-center bg-image"
+    src="Model-X.avif"
     id="bg-image-modelx"
   />
 </Section>
@@ -49,8 +49,8 @@ import Section from "./Section.astro"
   ) as HTMLImageElement
 
   if (isEdge()) {
-    imageElement.src = "model-x.webp"
+    imageElement.src = "Model-x.webp"
   } else {
-    imageElement.src = "model-x.avif"
+    imageElement.src = "Model-X.avif"
   }
 </script>

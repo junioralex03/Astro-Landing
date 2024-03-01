@@ -22,14 +22,14 @@ import Section from "./Section.astro"
       Pedido personalizado</a
     >
   </div>
-
   <img
     slot="background"
-    alt="Model 3"
-    class="h-full w-full object-cover object-center"
-    src="model-3.avif"
+    alt="Model Y"
+    class="h-full w-full object-cover object-center bg-image"
+    src="Model-3.avif"
     id="bg-image-model3"
   />
+  
 </Section>
 
 <script>
@@ -49,8 +49,8 @@ import Section from "./Section.astro"
   ) as HTMLImageElement
 
   if (isEdge()) {
-    imageElement.src = "model-3.webp"
+    imageElement.src = "Model-3.webp"
   } else {
-    imageElement.src = "model-3.avif"
+    imageElement.src = "Model-3.avif"
   }
 </script>
